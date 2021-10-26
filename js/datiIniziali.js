@@ -1,4 +1,4 @@
-[
+iconsList = [
 	{
 		name: 'cat',
 		prefix: 'fa-',
