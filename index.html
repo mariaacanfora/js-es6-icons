@@ -13,22 +13,22 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
-
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     
     <header>
         <div class="container-fluid">
-            <h1 class="text-primary my-0">FontIcons</h1>
+            <h1 class="my_text-primary my-0">FontIcons</h1>
         </div>
 
         <nav>
-            <div class="container-fluid text-center bg-primary">
-                <h4 class="text-light d-inline-block">FILTRA PER TIPO</h4>
+            <div class="container-fluid text-center my_bg-primary py-3">
+                <h4 class="text-light d-inline-block my-0">FILTRA PER TIPO</h4>
 
                 <select name="icon selection" id="icon-select">
                     <option value="">All</option>
-                    <option value="animal">Animal</option>
+                    <option value="animal" id="animal-option">Animal</option>
                     <option value="vegetable">Vegetable</option>
                     <option value="user">User</option>
                 </select>
@@ -36,8 +36,9 @@
         </nav>
     </header>
 
-    <main style="height: 500px;">
-        <div class="container-fluid bg-secondary" id="main-container">
+    <main>
+        <div class="container-fluid my_bg-secondary" id="main-container" style="height: 100vh;">
+            
         </div>
 
     </main>
